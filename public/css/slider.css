@@ -1,0 +1,242 @@
+
+  
+  html {
+      overflow: scroll;
+      overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+      /* width: 0px;  remove scrollbar space */
+      /* background: transparent;  optional: just make scrollbar invisible */
+  }
+  /* optional: show position indicator in red */
+  /*::-webkit-scrollbar-thumb {
+      background: #FF0000;
+  }*/
+  
+  #wrapper{
+    max-width:100%;
+    padding:0px 8rem 0px 8rem;
+    position:relative;
+  }
+  
+  button:focus {outline:0 !important;}
+  
+  .left-controls{
+    margin-top: 15rem;
+    position:absolute;
+    top:0;
+    left:0;
+    width:7rem;
+    height:7rem;
+    z-index:40;
+    /* background:#fff; */
+    opacity: .7;
+    cursor:pointer;
+    text-align:center;
+    webkit justify content: center;
+    justify-content:center;
+    display: webkit box;
+    display: webkit flex;
+    display: moz box;
+    display:ms flexbox;
+    display:flex;
+    color:#fff;
+  
+  }
+  
+  .fa-chevron-left-extra
+  {
+    align-self:center;
+    position:relative;
+    height:auto;
+    top:-250px;
+    transform-origin: 55% 50%;
+    font-style:normal;
+    font-weight:400;
+    line-height:1;
+    font-variant:normal;
+    text-transform:none;
+    font-size:2.5vw;
+    transition:transform .1s ease-out 0s;
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    color:blue;
+    opacity:.1;
+  }
+  
+  
+  .right-controls{
+    margin-top: 15rem;
+    position:absolute;
+    top:0;
+    right:0;
+    width:7rem;
+    height:7rem;
+    z-index:40;
+    /* background:#fff; */
+    opacity: .7;
+    cursor:pointer;
+    text-align:center;
+    webkit justify content: center;
+    justify-content:center;
+    display: webkit box;
+    display: webkit flex;
+    display: moz box;
+    display:ms flexbox;
+    display:flex;
+    color:#fff;
+  }
+  
+  .fa-chevron-right-extra
+  {
+    align-self:center;
+    position:relative;
+    height:auto;
+    top:-250px;
+   transform-origin: 55% 50%;
+    font-style:normal;
+    font-weight:400;
+    line-height:1;
+    font-variant:normal;
+    text-transform:none;
+    font-size:2.5vw;
+    transition:transform .1s ease-out 0s;
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    color:blue;
+    opacity:.1;
+  }
+  
+  .title{
+    color:#eee;
+  }
+  
+  .module-section{
+    max-width: 100%;
+    /* max-height: 1500px; */
+    
+    /* overflow: hidden; */
+    overflow-x:scroll;
+    /* border-left:1px solid #fff;
+    border-right:1px solid #fff; */
+    
+  }
+  
+  ul{
+  width:600em;
+  list-style-type:none;
+  padding:0px 0 0px 0;
+  
+  
+  
+  }
+  
+  #content{
+    position:relative;
+  }
+  
+  /*
+  .arrow-guides, .arrow-guides:hover{
+  
+  font-size:29px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  float:left;
+  position:relative;
+  top:80px;
+  left:-10px;
+  padding: 10px 5px 5px 2px;
+  background:#999;
+  color:#fff;
+  }
+  */
+  
+  /*
+  .arrow-guides-right, .arrow-guides-right:hover{
+  
+  font-size:29px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  float:right;
+  position:relative;
+  bottom:185px;
+  right:-40px;
+  padding: 10px 2px 5px 5px;
+  background:#999;
+  color:#fff;
+  }
+  
+  */
+  
+  .boton-area1-1{
+    background:#5454E8
+  }
+  .boton-area1-2{
+    background:#AFAFDB
+  }
+  .boton-area2-1{    
+    background:#bdf445
+  }
+  .boton-area2-2{
+    background:#d6f484
+  }
+  .boton-area3-1{
+    background:#f93a5f
+  }
+  .boton-area3-2{    
+    background:#f490a8
+  }
+  .boton-area4-1{
+    background:#f4ba27
+  }
+  .boton-area4-2{    
+    background:#f2d186
+  }
+  .boton-area5-1{
+    background:#9d2eed
+  }
+  .boton-area5-2{    
+    background:#d0a6f4
+  }
+  
+  
+  
+  
+  
+  /* .card:hover{
+    cursor:pointer;
+    transform: scale(1);
+    visibility:visible;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); 
+    z-index:100;
+    position:relative;
+    transition-timing-function:cubic-bezier(0.5, 0, 0.1, 1);
+    transition-duration:400ms;
+   
+    
+  } */
+  
+   .inside-top{
+    width:100%;
+    height:150px;
+    background:#000;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:100;
+  }
+  
+  
+  
+  .clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+  

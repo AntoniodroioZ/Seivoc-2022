@@ -1,0 +1,236 @@
+.pleca-superior{
+    background-image:url('/images/plecas/pleca-web3.png');
+    width: 100%;
+    height: 255px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: fixed;
+    top:0px;
+
+}
+.logotipo{
+    background-image:url('/images/plecas/logo-pleca.png');
+    width:122px;
+    height: 66px;
+    position: absolute;
+    top:3px;
+    left:82px;
+    background-repeat: no-repeat;
+}
+.Bienvenido{
+    font-size:37px;
+    color:#fff;
+    position: absolute;
+    left:518px;
+    top:10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.redes-sociales{
+    position: relative; 
+    top: 140px; 
+    left: 70rem; 
+}
+
+.centrar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-opacidad{
+    opacity: .5;
+}
+.centrar-item{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:700px){
+
+    .logotipo{
+        width: 75px;
+        height: 48px;
+        left:30px;
+        top:20px;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width:702px){
+
+    .logotipo{
+        width: 65px;
+        height: 28px;
+        background-size: contain;
+        left:40px;
+    }
+}
+@media screen and (min-width:810px){
+    .logotipo{
+        width: 75px;
+        height: 48px;
+        background-size: contain;
+        left:30px;
+    }
+}
+@media screen and (min-width:1024px){
+    .logotipo{
+        width: 90px;
+        height: 57px;
+        background-size: contain;
+        left:60px;
+        top:5px;
+    }
+}
+@media screen and (min-width:1200px){
+    .logotipo{
+
+        width: 120px;
+        height: 65px;
+        background-size: contain;
+        left:75px;
+        top:2px;
+    }
+}
+@media screen and (max-width:320px){
+    .pleca-superior{
+        background-image: url('/images/plecas/pleca-movil3.png');
+        width:100%;
+        height:auto;
+        position:fixed;
+        top:0px;
+        left:0px;
+        background-size:contain;
+    }
+    .pleca-superior-app{
+        background-image: url('/images/plecas/pleca-movil3.png');
+        width:100%;
+        height:auto;
+        position:fixed;
+        top:0px;
+        left:0px;
+        background-size:contain;
+    }
+}@media screen and (min-width:321px){
+    .pleca-superior{
+        background-image:url('/images/plecas/pleca-movil5.png');
+        width:100%;
+        height:inherit;
+        position:fixed;
+        top:0px;
+        left:0px;
+        right: 0px;
+        background-size:contain;
+    }
+    .pleca-superior-app{
+        background-image:url('/images/plecas/pleca-movil5.png');
+        width:100%;
+        height:inherit;
+        position:fixed;
+        top:0px;
+        left:0px;
+        right: 0px;
+        background-size:contain;
+    }
+}
+@media screen and (min-width:552px){
+    .pleca-superior{
+        background-image:url('/images/plecas/pleca-movil6.png');
+    }
+    .pleca-superior-app{
+        background-image:url('/images/plecas/pleca-movil6.png');
+    }
+}
+@media screen and (min-width:690px){
+    .pleca-superior{
+        background-image:url('/images/plecas/pleca-web.png');
+    }
+    .pleca-superior-app{
+        background-image:url('/images/plecas/pleca-web.png');
+    }
+}
+@media screen and (min-width:1024px){
+    .pleca-superior{
+        background-image:url('/images/plecas/pleca-web1.png');
+    }
+    .pleca-superior-app{
+        background-image:url('/images/plecas/pleca-web1.png');
+    }
+}
+@media screen and (min-width:1120px){
+    .pleca-superior{
+        background-image:url('/images/plecas/pleca-web2.png');
+    }
+    .pleca-superior-app{
+        background-image:url('/images/plecas/pleca-web2.png');
+    }
+}
+@media screen and (min-width:1200px){
+    .pleca-superior{
+        width:100%;
+        height:12rem;
+        background-image:url('/images/plecas/pleca-web3.png');
+        background-size:contain;
+    }
+    .pleca-superior-app{
+        width:100%;
+        height:12rem;
+        background-image:url('/images/plecas/pleca-web3.png');
+        background-size:contain;
+    }
+
+}
+@media screen and (min-width: 1361){
+    .redes-sociales{
+        position: relative; 
+        top: 140px; 
+        left: 70rem; 
+    }
+}
+@media screen and (min-width: 1599px){
+    .redes-sociales{
+        position: relative; 
+        top: 140px; 
+        left: 90rem; 
+    }
+}
+@media screen and (min-width: 1919px){
+    .redes-sociales{
+        position: relative; 
+        top: 140px; 
+        left: 105rem; 
+    }
+}
+/* Exclusivo para vista para descarga de la app */
+@media (max-width: 1367px) {
+    .pleca-superior-app{
+        width:100%;
+        height:12rem;
+        background-image:url('/images/plecas/pleca-web3.png');
+        background-size:contain;
+    }
+    .separacion-gif{
+        padding-top: 2rem;
+    }
+}
+.separacion-gif{
+        padding-top: 3rem;
+    }
+@media (max-width: 900px) {
+    .pleca-superior-app{
+        width:100%;
+        height:12rem;
+        background-image:url('/images/plecas/pleca-movil5.png');
+        background-size:contain;
+    }
+    .tam-login-texto{
+        font-size: .5rem;
+    }
+    .separacion-logo-registro{
+        margin-left: 54%;
+    }
+}

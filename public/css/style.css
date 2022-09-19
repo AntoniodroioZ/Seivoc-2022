@@ -1,0 +1,545 @@
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background:#FFFFFF;
+	color: #910146;
+}
+
+
+.address{
+	font-size: 80%;
+	margin: 0px;
+	color:#0f0f0f;
+	
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #B266FF;
+     color: floralwhite;
+}
+
+
+
+.home {
+     background-color: #FFFFFF;
+}
+.card-header{
+    background-color:#F3E408;
+
+}    
+
+#boton{
+    background-color:#F3E408;
+    width: 300px;
+    font-size: 20px;
+}
+
+
+.img2 {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.img3 {
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+}
+
+
+.img4 {
+    width: 350px;
+    height: 200px;
+    margin-left: 170px;
+    display: inline;
+}
+
+
+.img5 {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+
+.imgP {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.imgS{
+    width: 250px;
+    height: 250px;
+    margin-left: 70px;
+}
+
+
+.imgm1 {
+    width: 200px;
+    height: 200px;
+    margin-left:100px;
+    margin-right: 100px;
+}
+div a :hover{
+    font-weight: bold;
+    background:rgba(245,182,224,0.6);
+    color:#000000 ;
+}
+div a:focus{
+    font-weight: bold;
+    background:#FFFFFF;
+    color: #000000;
+}
+div a:activate{
+    font-weight: bold;
+    background:#1A1F1B;
+    border:4px #000000;
+    color: #000000;
+}
+
+.t1{
+  border-collapse: separate;
+  border-spacing: 20px 15px;
+}
+
+.t1 th{
+  color:#0D1D4B;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+
+
+}
+.t1 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: left;
+  border-bottom: 0px;
+}
+
+
+
+.t1-1 th{
+  color:#0D1D4B;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+  
+
+}
+.t1-1 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: justify;
+  border-bottom: 0px;
+}
+
+
+.b1{
+  background-color:#0D1D4B;
+  color:floralwhite;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 100px;
+  font-size: 20px;
+}
+
+.t2{
+  border-collapse: separate;
+  border-spacing: 20px 15px;
+}
+
+.t2 th{
+  color:#1B8F55;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+
+
+}
+.t2 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: left;
+  border-bottom: 0px;
+}
+
+
+
+.t2-2 th{
+  color:#1B8F55;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+  
+
+}
+.t2-2 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: justify;
+  border-bottom: 0px;
+}
+
+
+.b2{
+  background-color:#1B8F55;
+  color:floralwhite;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 100px;
+  font-size: 20px;
+}
+
+
+
+
+.t3{
+  border-collapse: separate;
+  border-spacing: 20px 15px;
+}
+
+.t3 th{
+  color:#C12C33;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+
+
+}
+.t3 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: left;
+  border-bottom: 0px;
+}
+
+
+
+.t3-3 th{
+  color:#C12C33;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+  
+
+}
+.t3-3 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: justify;
+  border-bottom: 0px;
+}
+
+
+.b3{
+  background-color:#C12C33;
+  color:floralwhite;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 100px;
+  font-size: 20px;
+}
+
+
+.t4{
+  border-collapse: separate;
+  border-spacing: 20px 15px;
+}
+
+.t4 th{
+  color:#A64A19;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+
+
+}
+.t4 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: left;
+  border-bottom: 0px;
+}
+
+
+
+.t4-4 th{
+  color:#A64A19;
+  font-size: 22px;
+  font-family: "Montserrat";
+  
+
+}
+.t4-4 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: justify;
+  border-bottom: 0px;
+}
+
+
+.b4{
+  background-color:#A64A19;
+  color:floralwhite;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 100px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.t4v{
+  border-collapse: separate;
+  border-spacing: 20px 15px;
+}
+
+.t4v th{
+  color:#A64A19;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+
+
+}
+.t4v td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: left;
+  border-bottom: 0px;
+}
+
+
+
+.t4v-4 th{
+  color:#A64A19;
+  font-size: 22px;
+  font-family: "Baloo Bai Black";
+  
+
+}
+.t4v-4 td{
+  color:black;
+  font-size: 22px;
+  font-family: "Segoe UI";
+  text-align: justify;
+  border-bottom: 0px;
+}
+
+
+.b4v{
+  background-color:#A64A19;
+  color:floralwhite;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 100px;
+  font-size: 20px;
+}
+
+
+#exampleModalLongTitle1{
+  color:#0D1D4B;
+  font-style: "Baloo Bhai Black"."Montserrat";
+  
+}
+
+#exampleModalLongTitle2{
+  color:#1B8F55;
+  font-style: "Baloo Bai Black","Montserrat";
+  
+}
+
+#exampleModalLongTitle3{
+  color:#C12C33;
+  font-style: "Baloo Bai Black","Montserrat";
+
+}
+
+#exampleModalLongTitle4{
+  color:#A64A19;
+  font-style: "Baloo Bai Black","Montserrat";
+  
+}
+
+#exampleModalLongTitle4-1{
+  color:#CE6D2B;
+  font-style: "Baloo Bai Black","Montserrat";
+}
+
+
+/* The footer is fixed to the bottom of the page */
+
+.vamos{
+  /* background-color:#000066; */
+  /* color:floralwhite;;
+  color:floralwhite; */
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: block;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 150px;
+  font-size: 20px;
+}
+
+
+
+.menu{
+  background-color:#CC99FF;
+  color:floralwhite;;
+  color:floralwhite;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 200px;
+  font-size: 20px;
+}
+
+
+
+
+.flechas{
+  margin-left: auto;
+  margin-right: auto;
+  background-color:transparent;
+}
+
+
+
+.comprobables{
+  background-color:#CC99FF;
+  color:floralwhite;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: bold;
+  font-family: "Baloo Bai Black";
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: transparent;
+  width: 150px;
+  font-size: 20px;
+}
+
+
+.divi2{
+  float: left;
+  width: 200px;
+  height: 280px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.divi1{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.menu :hover{
+  font-weight: bold;
+  background:rgba(245,182,224,0.6);
+  color:#000000 ;
+}
+.menu :focus{
+  font-weight: bold;
+  background:#FFFFFF;
+  color: #000000;
+}
+.menu :activate{
+  font-weight: bold;
+  background:#1A1F1B;
+  border:4px #000000;
+  color: #000000;
+}
+
+@media (max-width: 1367px) {
+  .img4 {
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    display: inline;
+  }
+
+}

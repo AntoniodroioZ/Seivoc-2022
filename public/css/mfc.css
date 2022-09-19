@@ -1,0 +1,52 @@
+
+.contenedor{
+    margin: 0rem 25rem;
+}
+.contenedor2{
+    margin-left:25rem;
+}
+.contenedor3{
+    margin: 0rem 25rem;
+    margin-left: 29.5rem;
+}
+.explicacion{
+    font-size: 1.3rem;
+}
+.linea{
+    max-width: 40rem;
+}
+.perareaImg{
+    margin-left: 9.8rem;
+}
+.boton-ojo{
+    max-width: 10rem;
+    margin: 0rem 19rem;
+}
+.imagenesIPN-UAM{
+    max-width: 70rem;
+}
+.boton-ir{
+    margin-left: 17rem;
+}
+@media (max-width: 1367px) {
+    .contenedor{
+        margin: 0rem 15rem;
+    }
+    .contenedor2{
+        margin-left:14rem;
+    }
+    .linea{
+        max-width: 30rem;
+    }
+    .contenedor3{
+        margin: 0rem 15.5rem;
+        margin-left: 19.5rem;
+    }
+    .perareaImg{
+        margin-left: 9rem;
+    }
+    .boton-ir{
+        margin-left: 11.5rem;
+    }
+}
+

@@ -1,0 +1,1985 @@
+.titulo-guia{
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff;
+    font-size:2.9rem;
+}
+.border-menu {
+    height: 15rem;
+    width: 25rem;
+    background: #EEE;
+    border: 0px solid #1C6EA4;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.caja-recordatorio{
+    width: 77rem;  
+    background-color: #fff; 
+    opacity: .5; 
+    color: #000;
+}
+.texto-caja-recordatorio{
+    margin:1px; 
+    font-size: 1.2rem;
+}
+.texto-caja-recordatorio2{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.caja-titulos{
+    height: 31.25rem;
+    overflow-y: scroll;
+}
+.caja-descripciones{
+    height: 31.25rem;
+    overflow-y: scroll;  
+    margin-right:0.5rem;
+}
+.titulo-carrera{
+    font-size: 2.5rem;
+    color:#2f2e65; 
+    font-weight: bold;
+}
+.descripcion-carrera{
+    margin-left:5rem; 
+    margin-right:5rem; 
+    font-size: 1.2rem;
+}
+.regresar-flecha{
+    margin-top:1.9rem; 
+    margin-left:5rem;
+}
+
+
+.boton-general{
+    border: none;
+    width: 11.05rem;
+    height: 2rem;
+  }
+
+.card{
+    width: 91.5rem;
+    height:34rem;
+    background:#fff;
+    float:left;
+    margin-right:10px;
+    /* margin-bottom:50px; */
+    /* cursor:pointer; */
+    transform: scale(1);
+    visibility:visible;
+    border-radius: 15px;
+    -moz-box-shadow: 0px 1px 5px 0px #676767;
+    -webkit-box-shadow: 0px 1px 5px 0px #676767;
+    box-shadow: 0px 1px 5px 0px #676767;
+    
+}
+.card-dificultad {
+    width: 22.5rem;
+    height:45rem;
+    background:#fff;
+    float:left;
+    margin-right:10px;
+    /* margin-bottom:50px; */
+    /* cursor:pointer; */
+    transform: scale(1);
+    visibility:visible;
+    border-radius: 15px;
+    -moz-box-shadow: 0px 1px 5px 0px #676767;
+    -webkit-box-shadow: 0px 1px 5px 0px #676767;
+    box-shadow: 0px 1px 5px 0px #676767;
+    
+}
+.imagenes-familias{
+    padding:1.5rem;
+    width: 22.4rem;
+}
+.tarjetas-descripciones{
+    height: 295px;
+    overflow-y: scroll;
+}
+
+.menu-DE{
+    padding-top: 3rem;
+    margin: 1rem 7rem
+}
+
+.seleccion-DS{   
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+}
+.cuadro-blanco{
+    width: 10rem;
+    height: 10rem;
+    background-color: #ddd;
+    border-radius: 21px;
+}
+.cuadro-relleno{
+    margin-left: 1.15rem;
+    width: 7.75rem;
+    height: 7.75rem;
+    background-color: #fff;
+    border-radius: 20px;
+    border-color: #848383;
+}
+
+.logo-unamDE{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    z-index: 1; 
+    top: .5rem;
+    left: 44.6rem;
+    max-height: 8rem;
+}
+.centrar-mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.logo-facultad{
+    max-width: 7.5rem;
+}
+.titulo-facultad{
+    font-size: 2rem;
+    color: #2F2E65;
+    font-weight: bold;
+}
+.web-facultad{
+    font-size: 1.5rem;
+    color: #EEB500;    
+}
+.imagen-facultad{
+    max-height: 10rem;
+    margin-left:8rem;
+}
+.mapa-cdmx{
+    max-height:23rem;
+    margin-top:4rem;
+}
+.tamaño-ubicacion{
+    max-width: 1.7rem;
+}
+.tamaño-ubicacion2{
+    max-width: 1.5rem;
+}
+.tamaño-ubicacion3{
+    max-width: 1.3rem;
+}
+.tamaño-ubicacion4{
+    max-width: 1.1rem;
+}
+.tamaño-ubicacion5{
+    max-width: .9rem;
+}
+.tamaño-ubicacion6{
+    max-width: .8rem;
+}
+.ubicacion1{
+    position: absolute;
+    z-index: 1; 
+    top: 2.5rem;
+    left: 26.6rem;
+}
+.ubicacion2{
+    position: absolute;
+    z-index: 1; 
+    top: 4.3rem;
+    left: 25.1rem;
+}
+.ubicacion3{
+    position: absolute;
+    z-index: 1; 
+    top: 6.4rem;
+    left: 23.6rem;
+}
+.ubicacion4{
+    position: absolute;
+    z-index: 1; 
+    top: 7.4rem;
+    left: 29.6rem;
+}
+.ubicacion5{
+    position: absolute;
+    z-index: 1; 
+    top: 9.5rem;
+    left: 31.5rem; 
+}
+.ubicacion6{
+    position: absolute;
+    z-index: 1; 
+    top: 14.5rem;
+    left: 26.6rem; 
+}
+.ubicacion7{
+    position: absolute;
+    z-index: 1; 
+    top: 15.1rem;
+    left: 24.4rem; 
+}
+.ubicacion8{
+    position: absolute;
+    z-index: 1; 
+    top: 16.8rem;
+    left: 25.7rem; 
+}
+.ubicacion9{
+    position: absolute;
+    z-index: 1; 
+    top: 17.8rem;
+    left: 28.1rem; 
+}
+.ubicacion-texto1{
+    position: absolute;
+    z-index: 1; 
+    top: 1rem;
+    left: 26.6rem;
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto2{
+    position: absolute;
+    z-index: 1; 
+    top: 3rem;
+    left: 25.1rem;
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto3{
+    position: absolute;
+    z-index: 1; 
+    top: 5.1rem;
+    left: 23.6rem;
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto4{
+    position: absolute;
+    z-index: 1; 
+    top: 6.1rem;
+    left: 29.6rem;
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto5{
+    position: absolute;
+    z-index: 1; 
+    top: 8.2rem;
+    left: 31.5rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto6{
+    position: absolute;
+    z-index: 1; 
+    top: 13.2rem;
+    left: 26.6rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto7{
+    position: absolute;
+    z-index: 1; 
+    top: 13.8rem;
+    left: 24.4rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto8{
+    position: absolute;
+    z-index: 1; 
+    top: 15.5rem;
+    left: 25.7rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion-texto9{
+    position: absolute;
+    z-index: 1; 
+    top: 16.5rem;
+    left: 28.1rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* DondeEstarasRepMexicana */
+.ubicacion10{
+    position: absolute;
+    z-index: 1; 
+    top: 5.2rem;
+    left: 9.5rem; 
+}
+.ubicacion-texto10{
+    position: absolute;
+    z-index: 1; 
+    top: 3.5rem;
+    left: 8.6rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion11{
+    position: absolute;
+    z-index: 1; 
+    top: 17rem;
+    left: 20.2rem; 
+}
+.ubicacion-texto11{
+    position: absolute;
+    z-index: 1; 
+    top: 15.1rem;
+    left: 19.2rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion12{
+    position: absolute;
+    z-index: 1; 
+    top: 19.6rem;
+    left: 40.5rem; 
+}
+.ubicacion-texto12{
+    position: absolute;
+    z-index: 1; 
+    top: 17.7rem;
+    left: 40.2rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion13{
+    position: absolute;
+    z-index: 1; 
+    top: 20.1rem;
+    left: 39.1rem; 
+}
+.ubicacion-texto13{
+    position: absolute;
+    z-index: 1; 
+    top: 18.3rem;
+    left: 39rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion14{
+    position: absolute;
+    z-index: 1; 
+    top: 20.3rem;
+    left: 27.8rem; 
+}
+.ubicacion-texto14{
+    position: absolute;
+    z-index: 1; 
+    top: 18.5rem;
+    left: 27.9rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion15{
+    position: absolute;
+    z-index: 1; 
+    top: 20.3rem;
+    left: 25.5rem; 
+}
+.ubicacion-texto15{
+    position: absolute;
+    z-index: 1; 
+    top: 18.5rem;
+    left: 25.3rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion16{
+    position: absolute;
+    z-index: 1; 
+    top: 21.3rem;
+    left: 27rem; 
+}
+.ubicacion-texto16{
+    position: absolute;
+    z-index: 1; 
+    top: 19.5rem;
+    left: 26.3rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion17{
+    position: absolute;
+    z-index: 1; 
+    top: 21.6rem;
+    left: 29rem; 
+}
+.ubicacion-texto17{
+    position: absolute;
+    z-index: 1; 
+    top: 19.5rem;
+    left: 26.3rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion18{
+    position: absolute;
+    z-index: 1; 
+    top: 22.1rem;
+    left: 24.8rem; 
+}
+.ubicacion-texto18{
+    position: absolute;
+    z-index: 1; 
+    top: 20.1rem;
+    left: 24.3rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion19{
+    position: absolute;
+    z-index: 1; 
+    top: 22.6rem;
+    left: 26rem; 
+}
+.ubicacion-texto19{
+    position: absolute;
+    z-index: 1; 
+    top: 20.8rem;
+    left: 24.7rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion20{
+    position: absolute;
+    z-index: 1; 
+    top: 22.9rem;
+    left: 28.6rem; 
+}
+.ubicacion-texto20{
+    position: absolute;
+    z-index: 1; 
+    top: 21rem;
+    left: 27.7rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion21{
+    position: absolute;
+    z-index: 1; 
+    top: 22.7rem;
+    left: 29.6rem; 
+}
+.ubicacion-texto21{
+    position: absolute;
+    z-index: 1; 
+    top: 21rem;
+    left: 28.7rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion22{
+    position: absolute;
+    z-index: 1; 
+    top: 22.7rem;
+    left: 29.6rem; 
+}
+.ubicacion-texto22{
+    position: absolute;
+    z-index: 1; 
+    top: 21rem;
+    left: 28.7rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion23{
+    position: absolute;
+    z-index: 1; 
+    top: 23.9rem;
+    left: 28.4rem; 
+}
+.ubicacion-texto23{
+    position: absolute;
+    z-index: 1; 
+    top: 22rem;
+    left: 28.7rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion24{
+    position: absolute;
+    z-index: 1; 
+    top: 23.9rem;
+    left: 28.4rem; 
+}
+.ubicacion-texto24{
+    position: absolute;
+    z-index: 1; 
+    top: 22rem;
+    left: 28.7rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion25{
+    position: absolute;
+    z-index: 1; 
+    top: 23.9rem;
+    left: 35.6rem; 
+}
+.ubicacion-texto25{
+    position: absolute;
+    z-index: 1; 
+    top: 22rem;
+    left: 35.2rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion26{
+    position: absolute;
+    z-index: 1; 
+    top: 24rem;
+    left: 27rem; 
+}
+.ubicacion-texto26{
+    position: absolute;
+    z-index: 1; 
+    top: 22.5rem;
+    left: 26.2rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion27{
+    position: absolute;
+    z-index: 1; 
+    top: 25.5rem;
+    left: 31.3rem; 
+}
+.ubicacion-texto27{
+    position: absolute;
+    z-index: 1; 
+    top: 23.3rem;
+    left: 31.2rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion28{
+    position: absolute;
+    z-index: 1; 
+    top: 25.9rem;
+    left: 35.9rem; 
+}
+.ubicacion-texto28{
+    position: absolute;
+    z-index: 1; 
+    top: 24rem;
+    left: 35.2rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.ubicacion29{
+    position: absolute;
+    z-index: 1; 
+    top: 20.9rem;
+    left: 40.2rem;
+}
+.ubicacion-texto29{
+    position: absolute;
+    z-index: 1; 
+    top: 20rem;
+    left: 40.2rem; 
+    background-color: gray;
+    opacity: .8;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Invisible texto */
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+  /* Visible texto */
+figure:hover > figcaption {
+    display:block;
+    position: absolute;
+    transition: all .5s;
+}
+.cuadros-Debessaber{
+    height: 8rem;
+    cursor: pointer;
+    transition: .2s;
+
+}
+.cuadros-Debessaber:hover{
+    height: 9rem;
+    cursor: pointer;
+    transition: .5s;
+}
+.tam-estadioCU:hover{
+    height: 8rem;
+    transition: .5s;
+}
+.tam-estadioCU{
+    height: 7rem;
+    transition: .2s; 
+}
+.tam-avin{
+    height: 14rem;
+    transition: .2s;  
+}
+.ubicacionCU0{
+    position: absolute;
+    z-index: 1; 
+    top: 4rem;
+    left: 8rem;
+}
+.ubicacionCU1{
+    position: absolute;
+    z-index: 1; 
+    top: 1.5rem;
+    left: 15rem;
+}
+.tam-reserva{
+    height: 7rem;
+    transition: .2s;
+}
+.tam-reserva:hover{
+    height: 8rem;
+    transition: .5s;
+}
+.ubicacionCU2{
+    position: absolute;
+    z-index: 1; 
+    top: 19rem;
+    left: 11rem;
+}
+.tam-JardiB{
+    height: 5rem;
+    transition: .2s;
+}
+.tam-JardiB:hover{
+    height: 6rem;
+    transition: .5s;
+}
+.ubicacionCU3{
+    position: absolute;
+    z-index: 1; 
+    top: 9rem;
+    left: 4rem;
+}
+.tam-islas{
+    height: 12rem;
+    transition: .2s;
+}
+.tam-islas:hover{
+    height: 13rem;
+    transition: .5s;
+}
+.ubicacionCU4{
+    position: absolute;
+    z-index: 1; 
+    top: 6rem;
+    left: 23rem;
+}
+.tam-ZonaDeportiva{
+    height: 7rem;
+    transition: .2s;
+}
+.tam-ZonaDeportiva:hover{
+    height: 8rem;
+    transition: .5s;
+}
+.ubicacionCU5{
+    position: absolute;
+    z-index: 1; 
+    top: 16.5rem;
+    left: 19rem;
+}
+/* Tamaño facultades */
+.tam-fac1{
+    height: 4rem;
+    transition: .2s;
+}
+.tam-fac1:hover{
+    height: 5rem;
+    transition: .5s;
+}
+.tam-fac2{
+    height: 4.5rem;
+    transition: .2s;
+}
+.tam-fac2:hover{
+    height: 5.5rem;
+    transition: .5s;
+}
+/* Facultades CU ubicacion */
+.ubicacionCU6{
+    position: absolute;
+    z-index: 1; 
+    top: 1rem;
+    left: 29rem;
+}
+.ubicacionCU7{
+    position: absolute;
+    z-index: 1; 
+    top: 5rem;
+    left: 32.5rem;
+}
+.ubicacionCU8{
+    position: absolute;
+    z-index: 1; 
+    top: 7rem;
+    left: 36rem;
+}
+.ubicacionCU9{
+    position: absolute;
+    z-index: 1; 
+    top: 9rem;
+    left: 39.5rem;
+}
+.ubicacionCU10{
+    position: absolute;
+    z-index: 1; 
+    top: 13.5rem;
+    left: 42rem;
+}
+.ubicacionCU11{
+    position: absolute;
+    z-index: 1; 
+    top: 18.5rem;
+    left: 41rem;
+}
+.ubicacionCU12{
+    position: absolute;
+    z-index: 1; 
+    top: 7rem;
+    left: 7rem;
+}
+.ubicacionCU13{
+    position: absolute;
+    z-index: 1; 
+    top: 13.5rem;
+    left: 8rem;
+}
+.ubicacionCU14{
+    position: absolute;
+    z-index: 1; 
+    top: 17rem;
+    left: 11rem;
+}
+.ubicacionCU15{
+    position: absolute;
+    z-index: 1; 
+    top: 11rem;
+    left: 20rem;
+}
+.ubicacionCU16{
+    position: absolute;
+    z-index: 1; 
+    top: 14rem;
+    left: 26.5rem;
+}
+.ubicacionCU17{
+    position: absolute;
+    z-index: 1; 
+    top: 16rem;
+    left: 31.5rem;
+}
+.ubicacionCU18{
+    position: absolute;
+    z-index: 1; 
+    top: 20rem;
+    left: 27.5rem;
+}
+.ubicacionCU19{
+    position: absolute;
+    z-index: 1; 
+    top: 21.5rem;
+    left: 35rem;
+}
+.ubicacionCU20{
+    position: absolute;
+    z-index: 1; 
+    top: 25rem;
+    left: 22rem;
+}
+.ubicacionCU21{
+    position: absolute;
+    z-index: 1; 
+    top: 26rem;
+    left: 32rem;
+}
+.ubicacionCU22{
+    position: absolute;
+    z-index: 1; 
+    top: 18.5rem;
+    left: 5rem;
+}
+.ubicacionCU23{
+    position: absolute;
+    z-index: 1; 
+    top: 24rem;
+    left: 9rem;
+}
+.ubicacionCU24{
+    position: absolute;
+    z-index: 1; 
+    top: 25.5rem;
+    left: 16rem;
+}
+.ubicacionCU25{
+    position: absolute;
+    z-index: 1; 
+    top: 29rem;
+    left: 11rem;
+}
+.tam-SalaNeza{
+    height: 3rem;
+    transition: .2s;
+}
+.tam-SalaNeza:hover{
+    height: 4rem;
+    transition: .5s;
+}
+.ubicacionCU26{
+    position: absolute;
+    z-index: 1; 
+    top: 22.5rem;
+    left: 4rem;
+}
+.tam-centro-cultural{
+    height: 3rem;
+    transition: .2s;
+}
+.tam-centro-cultural:hover{
+    height: 4rem;
+    transition: .5s;
+}
+.ubicacionCU27{
+    position: absolute;
+    z-index: 1; 
+    top: 26rem;
+    left: 4rem;
+}
+.tam-universum{
+    height: 2rem;
+    transition: .2s;
+}
+.tam-universum:hover{
+    height: 3rem;
+    transition: .5s;
+}
+.ubicacionCU28{
+    position: absolute;
+    z-index: 1; 
+    top: 30rem;
+    left: 4rem;
+}
+.ubicacionCU29{
+    position: absolute;
+    z-index: 1; 
+    top: 15.5rem;
+    left: 48rem;
+}
+.ubicacionCU30{
+    position: absolute;
+    z-index: 1; 
+    top: 29.5rem;
+    left: 20rem;
+}
+
+@media (max-width: 1367px) {
+    .tam-avin{
+        height: 9rem;
+        transition: .2s;  
+    }
+    .titulo-guia{
+        text-decoration: none;
+        font-weight: bold;
+        color:#fff;
+        font-size:1.6rem;
+        margin: 0px;
+    }
+    .border-menu {
+        height: 10rem;
+        width: 20rem;
+        background: #EEE;
+        border: 0px solid #1C6EA4;
+        border-radius: 40px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+    }
+    .caja-recordatorio{
+        width: 55rem;  
+        background-color: #fff; 
+        opacity: .5; 
+        color: #000;
+    }
+    .texto-caja-recordatorio{
+        margin:1px; 
+        font-size: 1rem;
+    }
+    .caja-titulos{
+        height: 25rem;
+        overflow-y: scroll;
+    }
+    .caja-descripciones{
+        height: 25rem;
+        overflow-y: scroll;  
+        margin-right:0.5rem;
+    }
+    .titulo-carrera{
+        font-size: 2rem;
+        color:#2f2e65; 
+        font-weight: bold;
+    }
+    .descripcion-carrera{
+        margin-left:5rem; 
+        margin-right:5rem; 
+        font-size: 1.1rem;
+    }
+    .regresar-flecha{
+        margin-top:-.1rem; 
+        margin-left:2.5rem;
+    }
+    .boton-general{
+        border: none;
+        width: 8.33rem;
+        height: 2rem;
+      }
+    .card {
+        width: 71rem;
+        height:27rem;
+        background:#fff;
+        float:left;
+        margin-right:10px;
+        /* margin-bottom:50px; */
+        /* cursor:pointer; */
+        transform: scale(1);
+        visibility:visible;
+        border-radius: 15px;
+        -moz-box-shadow: 0px 1px 5px 0px #676767;
+        -webkit-box-shadow: 0px 1px 5px 0px #676767;
+        box-shadow: 0px 1px 5px 0px #676767;
+        
+    }
+    .card-dificultad {
+        width: 17rem;
+        height:30rem;
+        background:#fff;
+        float:left;
+        margin-right:10px;
+        /* margin-bottom:50px; */
+        /* cursor:pointer; */
+        transform: scale(1);
+        visibility:visible;
+        border-radius: 15px;
+        -moz-box-shadow: 0px 1px 5px 0px #676767;
+        -webkit-box-shadow: 0px 1px 5px 0px #676767;
+        box-shadow: 0px 1px 5px 0px #676767;
+        
+    }
+    .imagenes-familias{
+        padding:1.5rem;
+        width: 17rem;
+    }
+    .tarjetas-descripciones{
+        height: 170px;
+        overflow-y: scroll;
+    }
+
+
+    /* DondeEstarasCDMX */
+    .logo-unamDE{
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        z-index: 1; 
+        top: .5rem;
+        left: 32.6rem;
+        max-height: 7rem;
+    }
+    .mapa-cdmx{
+        max-height:23rem;
+        margin-top:0rem;
+    }
+    .tamaño-ubicacion{
+        max-width: 1.2rem;
+    }
+    .ubicacion1{
+        position: absolute;
+        z-index: 1; 
+        top: 0.3rem;
+        left: 21.6rem;
+    }
+    .ubicacion2{
+        position: absolute;
+        z-index: 1; 
+        top: 1.8rem;
+        left: 19.8rem;
+    }
+    .ubicacion3{
+        position: absolute;
+        z-index: 1; 
+        top: 3.7rem;
+        left: 18.6rem;
+    }
+    .ubicacion4{
+        position: absolute;
+        z-index: 1; 
+        top: 4rem;
+        left: 24.8rem;
+    }
+    .ubicacion5{
+        position: absolute;
+        z-index: 1; 
+        top: 5.8rem;
+        left: 26.2rem; 
+    }
+    .ubicacion6{
+        position: absolute;
+        z-index: 1; 
+        top: 11.5rem;
+        left: 21.5rem; 
+    }
+    .ubicacion7{
+        position: absolute;
+        z-index: 1; 
+        top: 12rem;
+        left: 19.4rem; 
+    }
+    .ubicacion8{
+        position: absolute;
+        z-index: 1; 
+        top: 13.2rem;
+        left: 20.5rem; 
+    }
+    .ubicacion9{
+        position: absolute;
+        z-index: 1; 
+        top: 14rem;
+        left: 23rem; 
+    }
+    .ubicacion-texto1{
+        position: absolute;
+        z-index: 1; 
+        top: 1px;
+        left: 23rem;
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto2{
+        position: absolute;
+        z-index: 1; 
+        top: 0rem;
+        left: 15.5rem;
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto3{
+        position: absolute;
+        z-index: 1; 
+        top: 1.9rem;
+        left: 14.5rem;
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto4{
+        position: absolute;
+        z-index: 1; 
+        top: 2rem;
+        left: 21.5rem;
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto5{
+        position: absolute;
+        z-index: 1; 
+        top: 3.9rem;
+        left: 22.5rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto6{
+        position: absolute;
+        z-index: 1; 
+        top: 9.5rem;
+        left: 16.6rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto7{
+        position: absolute;
+        z-index: 1; 
+        top: 10rem;
+        left: 13.4rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto8{
+        position: absolute;
+        z-index: 1; 
+        top: 11rem;
+        left: 8.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion-texto9{
+        position: absolute;
+        z-index: 1; 
+        top: 12rem;
+        left: 16rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    /* DondeEstarasRepMexicana */
+    .ubicacion10{
+        position: absolute;
+        z-index: 1; 
+        top: 1.2rem;
+        left: 4rem; 
+    }
+    .ubicacion-texto10{
+        position: absolute;
+        z-index: 1; 
+        top: 0rem;
+        left: 3.1rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion11{
+        position: absolute;
+        z-index: 1; 
+        top: 13rem;
+        left: 14.7rem; 
+    }
+    .ubicacion-texto11{
+        position: absolute;
+        z-index: 1; 
+        top: 11.1rem;
+        left: 14.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion12{
+        position: absolute;
+        z-index: 1; 
+        top: 15.6rem;
+        left: 35rem; 
+    }
+    .ubicacion-texto12{
+        position: absolute;
+        z-index: 1; 
+        top: 13.7rem;
+        left: 34.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion13{
+        position: absolute;
+        z-index: 1; 
+        top: 16.1rem;
+        left: 33.6rem; 
+    }
+    .ubicacion-texto13{
+        position: absolute;
+        z-index: 1; 
+        top: 14.3rem;
+        left: 33.5rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion14{
+        position: absolute;
+        z-index: 1; 
+        top: 16.3rem;
+        left: 22.3rem; 
+    }
+    .ubicacion-texto14{
+        position: absolute;
+        z-index: 1; 
+        top: 14.5rem;
+        left: 22.4rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion15{
+        position: absolute;
+        z-index: 1; 
+        top: 16.3rem;
+        left: 20rem; 
+    }
+    .ubicacion-texto15{
+        position: absolute;
+        z-index: 1; 
+        top: 14.5rem;
+        left: 19.8rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion16{
+        position: absolute;
+        z-index: 1; 
+        top: 17.3rem;
+        left: 21.5rem; 
+    }
+    .ubicacion-texto16{
+        position: absolute;
+        z-index: 1; 
+        top: 15.5rem;
+        left: 20.8rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion17{
+        position: absolute;
+        z-index: 1; 
+        top: 17.6rem;
+        left: 23.5rem; 
+    }
+    .ubicacion-texto17{
+        position: absolute;
+        z-index: 1; 
+        top: 15.5rem;
+        left: 20.8rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion18{
+        position: absolute;
+        z-index: 1; 
+        top: 18.1rem;
+        left: 19rem; 
+    }
+    .ubicacion-texto18{
+        position: absolute;
+        z-index: 1; 
+        top: 16.1rem;
+        left: 18.8rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion19{
+        position: absolute;
+        z-index: 1; 
+        top: 18.6rem;
+        left: 20.5rem; 
+    }
+    .ubicacion-texto19{
+        position: absolute;
+        z-index: 1; 
+        top: 16.8rem;
+        left: 19.2rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion20{
+        position: absolute;
+        z-index: 1; 
+        top: 18.9rem;
+        left: 23.1rem; 
+    }
+    .ubicacion-texto20{
+        position: absolute;
+        z-index: 1; 
+        top: 17rem;
+        left: 22.2rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion21{
+        position: absolute;
+        z-index: 1; 
+        top: 18.7rem;
+        left: 24.1rem; 
+    }
+    .ubicacion-texto21{
+        position: absolute;
+        z-index: 1; 
+        top: 17rem;
+        left: 23.2rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion22{
+        position: absolute;
+        z-index: 1; 
+        top: 18.7rem;
+        left: 24.1rem; 
+    }
+    .ubicacion-texto22{
+        position: absolute;
+        z-index: 1; 
+        top: 17rem;
+        left: 23.2rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion23{
+        position: absolute;
+        z-index: 1; 
+        top: 19.9rem;
+        left: 22.9rem; 
+    }
+    .ubicacion-texto23{
+        position: absolute;
+        z-index: 1; 
+        top: 18rem;
+        left: 23.2rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion24{
+        position: absolute;
+        z-index: 1; 
+        top: 19.9rem;
+        left: 22.9rem; 
+    }
+    .ubicacion-texto24{
+        position: absolute;
+        z-index: 1; 
+        top: 18rem;
+        left: 23.2rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion25{
+        position: absolute;
+        z-index: 1; 
+        top: 19.9rem;
+        left: 30.1rem; 
+    }
+    .ubicacion-texto25{
+        position: absolute;
+        z-index: 1; 
+        top: 18rem;
+        left: 29.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion26{
+        position: absolute;
+        z-index: 1; 
+        top: 20rem;
+        left: 21.5rem; 
+    }
+    .ubicacion-texto26{
+        position: absolute;
+        z-index: 1; 
+        top: 18.5rem;
+        left: 21.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion27{
+        position: absolute;
+        z-index: 1; 
+        top: 21.5rem;
+        left: 25.7rem; 
+    }
+    .ubicacion-texto27{
+        position: absolute;
+        z-index: 1; 
+        top: 19.3rem;
+        left: 25.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion28{
+        position: absolute;
+        z-index: 1; 
+        top: 21.9rem;
+        left: 30.4rem; 
+    }
+    .ubicacion-texto28{
+        position: absolute;
+        z-index: 1; 
+        top: 20rem;
+        left: 29.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .ubicacion29{
+        position: absolute;
+        z-index: 1; 
+        top: 16.9rem;
+        left: 34.7rem;
+    }
+    .ubicacion-texto29{
+        position: absolute;
+        z-index: 1; 
+        top: 16rem;
+        left: 34.7rem; 
+        background-color: gray;
+        opacity: .8;
+        padding: 0rem 1rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+
+    /* Donde estaras CU */
+
+
+    .tam-estadioCU:hover{
+        height: 6rem;
+        transition: .5s;
+    }
+    .tam-estadioCU{
+        height: 5rem;
+        transition: .2s;
+    }
+    .ubicacionCU1{
+        position: absolute;
+        z-index: 1; 
+        top: .5rem;
+        left: 12rem;
+    }
+    .tam-reserva{
+        height: 5rem;
+        transition: .2s;
+    }
+    .tam-reserva:hover{
+        height: 6rem;
+        transition: .5s;
+    }
+    .ubicacionCU2{
+        position: absolute;
+        z-index: 1; 
+        top: 15rem;
+        left: 8rem;
+    }
+    .tam-JardiB{
+        height: 4rem;
+        transition: .2s;
+    }
+    .tam-JardiB:hover{
+        height: 5rem;
+        transition: .5s;
+    }
+    .ubicacionCU3{
+        position: absolute;
+        z-index: 1; 
+        top: 7rem;
+        left: 3rem;
+    }
+    .tam-islas{
+        height: 10em;
+        transition: .2s;
+    }
+    .tam-islas:hover{
+        height: 11rem;
+        transition: .5s;
+    }
+    .ubicacionCU4{
+        position: absolute;
+        z-index: 1; 
+        top: 4.5rem;
+        left: 16.5rem;
+    }
+    .tam-ZonaDeportiva{
+        height: 6rem;
+        transition: .2s;
+    }
+    .tam-ZonaDeportiva:hover{
+        height: 7rem;
+        transition: .5s;
+    }
+    .ubicacionCU5{
+        position: absolute;
+        z-index: 1; 
+        top: 12.5rem;
+        left: 13.5rem;
+    }
+    /* Tamaño facultades */
+    .tam-fac1{
+        height: 3.2rem;
+        transition: .2s;
+    }
+    .tam-fac1:hover{
+        height: 4.2rem;
+        transition: .5s;
+    }
+    .tam-fac2{
+        height: 3.7rem;
+        transition: .2s;
+    }
+    .tam-fac2:hover{
+        height: 4.7rem;
+        transition: .5s;
+    }
+    /* Facultades CU ubicacion */
+    .ubicacionCU6{
+        position: absolute;
+        z-index: 1; 
+        top: 1rem;
+        left: 22rem;
+    }
+    .ubicacionCU7{
+        position: absolute;
+        z-index: 1; 
+        top: 4rem;
+        left: 24.5rem;
+    }
+    .ubicacionCU8{
+        position: absolute;
+        z-index: 1; 
+        top: 5.5rem;
+        left: 27rem;
+    }
+    .ubicacionCU9{
+        position: absolute;
+        z-index: 1; 
+        top: 7.5rem;
+        left: 30rem;
+    }
+    .ubicacionCU10{
+        position: absolute;
+        z-index: 1; 
+        top: 10.5rem;
+        left: 32rem;
+    }
+    .ubicacionCU11{
+        position: absolute;
+        z-index: 1; 
+        top: 15rem;
+        left: 31rem;
+    }
+    .ubicacionCU12{
+        position: absolute;
+        z-index: 1; 
+        top: 5rem;
+        left: 5rem;
+    }
+    .ubicacionCU13{
+        position: absolute;
+        z-index: 1; 
+        top: 10.5rem;
+        left: 6rem;
+    }
+    .ubicacionCU14{
+        position: absolute;
+        z-index: 1; 
+        top: 13.4rem;
+        left: 7.3rem;
+    }
+    .ubicacionCU15{
+        position: absolute;
+        z-index: 1; 
+        top: 8.5rem;
+        left: 14rem;
+    }
+    .ubicacionCU16{
+        position: absolute;
+        z-index: 1; 
+        top: 11rem;
+        left: 19.5rem;
+    }
+    .ubicacionCU17{
+        position: absolute;
+        z-index: 1; 
+        top: 13rem;
+        left: 23.5rem;
+    }
+    .ubicacionCU18{
+        position: absolute;
+        z-index: 1; 
+        top: 16rem;
+        left: 20.5rem;
+    }
+    .ubicacionCU19{
+        position: absolute;
+        z-index: 1; 
+        top: 16.5rem;
+        left: 27rem;
+    }
+    .ubicacionCU20{
+        position: absolute;
+        z-index: 1; 
+        top: 19rem;
+        left: 16rem;
+    }
+    .ubicacionCU21{
+        position: absolute;
+        z-index: 1; 
+        top: 20rem;
+        left: 24rem;
+    }
+    .ubicacionCU22{
+        position: absolute;
+        z-index: 1; 
+        top: 14.5rem;
+        left: 2rem;
+    }
+    .ubicacionCU23{
+        position: absolute;
+        z-index: 1; 
+        top: 18.5rem;
+        left: 6rem;
+    }
+    .ubicacionCU24{
+        position: absolute;
+        z-index: 1; 
+        top: 19.5rem;
+        left: 11.5rem;
+    }
+    .ubicacionCU25{
+        position: absolute;
+        z-index: 1; 
+        top: 22rem;
+        left: 8rem;
+    }
+    .tam-SalaNeza{
+        height: 2rem;
+        transition: .2s;
+    }
+    .tam-SalaNeza:hover{
+        height: 3rem;
+        transition: .5s;
+    }
+    .ubicacionCU26{
+        position: absolute;
+        z-index: 1; 
+        top: 17.5rem;
+        left: 2rem;
+    }
+    .tam-centro-cultural{
+        height: 2rem;
+        transition: .2s;
+    }
+    .tam-centro-cultural:hover{
+        height: 3rem;
+        transition: .5s;
+    }
+    .ubicacionCU27{
+        position: absolute;
+        z-index: 1; 
+        top: 19.5rem;
+        left: 2rem;
+    }
+    .tam-universum{
+        height: 1rem;
+        transition: .2s;
+    }
+    .tam-universum:hover{
+        height: 2rem;
+        transition: .5s;
+    }
+    .ubicacionCU28{
+        position: absolute;
+        z-index: 1; 
+        top: 22rem;
+        left: 2rem;
+    }
+    .ubicacionCU29{
+        position: absolute;
+        z-index: 1; 
+        top: 12.5rem;
+        left: 37rem;
+    }
+    .ubicacionCU30{
+        position: absolute;
+        z-index: 1; 
+        top: 22.5rem;
+        left: 15rem;
+    }
+
+}
+@media (max-width: 1600px) {
+    .titulo-guia{
+        text-decoration: none;
+        font-weight: bold;
+        color:#fff;
+        font-size:1.9rem;
+        margin: 0px;
+    }
+}
